@@ -1,4 +1,4 @@
-# BatterUp: Learn TDD Through Pair Programming 🎯
+# BatterUp: Learn TDD Through Pair Programming
 
 <div align="center">
 
