@@ -1,5 +1,15 @@
 # BatterUp: Learn TDD Through Pair Programming 🎯
 
+<div align="center">
+
+**A [Vibe Academy](https://www.vibe.academy/) Learning Tool**
+
+*Master Test-Driven Development through hands-on, AI-powered pair programming*
+
+---
+
+</div>
+
 BatterUp is an interactive learning environment that teaches Test-Driven Development (TDD) through AI-powered pair programming. Experience the "batter up" approach where a senior developer writes tests and you implement the code to pass them.
 
 ## What is BatterUp?
@@ -255,6 +265,12 @@ Recommended progression:
 3. **String Calculator** - Introduces string parsing and complexity
 4. **Todo List** - Most complex, uses data structures
 
+## Continue Your Learning Journey
+
+Ready to level up your coding skills even further? Check out **[How to Read Code](https://www.vibe.academy/how-to-read-code)** - a comprehensive course from Vibe Academy that teaches you the essential skill of understanding and navigating codebases like a pro.
+
+While BatterUp teaches you how to *write* code using TDD, "How to Read Code" teaches you how to *understand* code - a critical skill for working with real-world projects, contributing to open source, and becoming a more effective developer.
+
 ## Philosophy
 
 BatterUp is built on these principles:
@@ -280,7 +296,7 @@ MIT License - feel free to use this for learning and teaching!
 
 ## Credits
 
-Created to teach TDD and pair programming through AI-powered mentorship. Inspired by classic code katas and the "batter up" pairing technique.
+Created by [Vibe Academy](https://www.vibe.academy/) to teach TDD and pair programming through AI-powered mentorship. Inspired by classic code katas and the "batter up" pairing technique.
 
 ---
 
@@ -297,3 +313,13 @@ Then:
 ```
 
 Happy coding! 🚀
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Vibe Academy](https://www.vibe.academy/)**
+
+*Empowering developers through practical, hands-on learning*
+
+</div>
