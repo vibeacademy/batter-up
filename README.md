@@ -4,7 +4,7 @@
 
 **A [Vibe Academy](https://www.vibe.academy/) Learning Tool**
 
-*Master Test-Driven Development through hands-on, AI-powered pair programming*
+*Learn Test-Driven Development through hands-on, AI-powered pair programming*
 
 ---
 
