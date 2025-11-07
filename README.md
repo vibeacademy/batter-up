@@ -294,9 +294,9 @@ Want to add exercises or improve the experience?
 
 MIT License - feel free to use this for learning and teaching!
 
-## Credits
+## 📚 Continue Learning
 
-Created by [Vibe Academy](https://www.vibe.academy/) to teach TDD and pair programming through AI-powered mentorship. Inspired by classic code katas and the "batter up" pairing technique.
+Want to level up your coding skills even further? Check out [How to Read Code](https://www.vibe.academy/how-to-read-code) - a comprehensive course from Vibe Academy that teaches you the essential skill of understanding and navigating codebases like a pro.
 
 ---
 
