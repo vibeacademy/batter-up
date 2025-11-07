@@ -1,5 +1,15 @@
 # BatterUp TDD Session: {EXERCISE_NAME}
 
+<div align="center">
+
+**A [Vibe Academy](https://www.vibe.academy/) Learning Tool**
+
+*Master Test-Driven Development through hands-on practice*
+
+</div>
+
+---
+
 Welcome to your TDD learning session! This directory contains your exercise files.
 
 ## 📁 Session Info
@@ -72,6 +82,18 @@ Just ask! I can:
 
 ---
 
+## 📚 Continue Learning
+
+Want to level up your coding skills even further? Check out **[How to Read Code](https://www.vibe.academy/how-to-read-code)** - a comprehensive course from Vibe Academy that teaches you the essential skill of understanding and navigating codebases like a pro.
+
+---
+
 **Remember**: In TDD, failing tests are your friends! They tell you exactly what to build next.
 
 Happy coding! 🎉
+
+<div align="center">
+
+**Made with ❤️ by [Vibe Academy](https://www.vibe.academy/)**
+
+</div>
