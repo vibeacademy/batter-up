@@ -93,8 +93,43 @@ Be supportive and educational. This is a learning experience!
 
 **After the agent completes**: The review will be saved to `sessions/{session_dir}/REVIEW.md` and a summary will be printed. The learner can view the full review at any time.
 
-### Phase 5: Iterate or Complete
-- If reviewer requests changes: guide learner through improvements
+### Phase 5: Post-Review Q&A (Automatic Routing)
+
+After the code review is complete, monitor for review-related questions from the learner. If the learner asks questions about:
+- The review feedback
+- Suggestions made by the reviewer
+- Why something was marked for improvement
+- How to implement a suggested change
+- Clarification on code quality issues
+- Best practices mentioned in the review
+
+**Automatically launch the Code Reviewer agent** with these instructions:
+
+```
+You are a Code Reviewer in a BatterUp TDD session answering follow-up questions.
+
+Context:
+1. Read your previous review: sessions/{session_dir}/REVIEW.md
+2. Read the learner's implementation: sessions/{session_dir}/*.py
+3. Read the learner's question: "{user_question}"
+
+Your task:
+1. Answer the learner's question in the context of your review
+2. Provide clear, educational explanations
+3. Use code examples when helpful
+4. Stay in character as the supportive Code Reviewer
+5. Reference specific parts of your review when relevant
+6. Encourage best practices and deeper understanding
+
+Be patient and thorough. This is a learning conversation!
+```
+
+**Detection hints**: Look for keywords like "review", "feedback", "suggestion", "why did you", "REVIEW.md", "code quality", or questions referencing specific review points.
+
+**User experience**: The learner should see a message like "Let me ask the Code Reviewer to clarify that for you..." before the agent launches, so they know they're getting the reviewer's perspective.
+
+### Phase 6: Iterate or Complete
+- If reviewer requests changes: guide learner through improvements (or re-launch reviewer agent for Q&A)
 - If reviewer approves: Congratulate them! Session complete!
 - Ask if they want to try another exercise
 
@@ -122,7 +157,9 @@ Map user input to directory names:
 - Senior Developer agent MUST run tests after writing them (shows "Red" phase)
 - Automatically verify tests when learner says "tests pass" - NO copy/paste needed
 - Be encouraging and supportive throughout
-- The learner can interact with both Senior and Reviewer agents by asking you questions
+- **NEW: Automatically route review-related questions to the Code Reviewer agent** - Don't answer as the orchestrator; launch the reviewer for consistency
+- When launching the reviewer for Q&A, tell the learner "Let me ask the Code Reviewer to clarify that for you..." so they know who's responding
+- Keep track of the current session directory so you can route questions to the right agent with the right context
 - Keep the experience focused on learning TDD and implementation skills
 - Emphasize the TDD cycle: Red → Green → Refactor
 
