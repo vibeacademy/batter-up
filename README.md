@@ -265,12 +265,6 @@ Recommended progression:
 3. **String Calculator** - Introduces string parsing and complexity
 4. **Todo List** - Most complex, uses data structures
 
-## Continue Your Learning Journey
-
-Ready to level up your coding skills even further? Check out **[How to Read Code](https://www.vibe.academy/how-to-read-code)** - a comprehensive course from Vibe Academy that teaches you the essential skill of understanding and navigating codebases like a pro.
-
-While BatterUp teaches you how to *write* code using TDD, "How to Read Code" teaches you how to *understand* code - a critical skill for working with real-world projects, contributing to open source, and becoming a more effective developer.
-
 ## Philosophy
 
 BatterUp is built on these principles:
